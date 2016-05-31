@@ -3,28 +3,35 @@
 
   <head>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
   </head>
 
   <body>
     <div class="container">
-      <h1>My Todo List</h1>
-      <input id="userinput">
-      <button class="btn-default">+</button>
+      <h1>TODO LIST</h1>
+      <form>
+        <input id="userinput" placeholder="Please enter your task">
+        <button class="btn-default" type="submit" id="add">+</button>
+      </form>
+      <p id="error"></p>
       <div id="result">
-        
+        <ul id="content">
+
+        </ul>
       </div>
       <ul class="float-right">
         <li>
-          <button type="button" class="btn-primary">Display All</button>
-          <button type="button" class="btn-primary">Completed Tasks</button>
-          <button type="button" class="btn-primary">Unfinished Tasks</button>
+          <button type="button" class="btn-primary" id="displayAll">Display All</button>
+          <button type="button" class="btn-primary" id="showCompleted">Completed Tasks</button>
+          <button type="button" class="btn-primary" id="showUnfinished">Unfinished Tasks</button>
         </li>
       </ul>
     </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="script.js"></script>
   </body>
 
 </html>

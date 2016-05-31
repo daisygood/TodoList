@@ -1,1 +1,84 @@
+body{
+	background:url('background.jpg')no-repeat center center;
+	background-size: cover;
+	margin:0;
+	padding:0;
+
+}
+.container{
+	max-width:900px;
+	margin:100px auto;
+	padding:20px 15px;
+	text-align: center;
+	height:500px;
+	color:#fff;
+}
+.float-right{
+	list-style: none;
+	float:right;
+	padding:0 50px 0 0 ;
+}
+#userinput{
+	height:40px;
+	width:300px;
+	border:none;
+	border-bottom:5px solid #4d4d4d;
+	background:transparent;
+	font-size:16px;
+	padding-left:5px;
+}
+
+form .btn-default{
+	line-height: 40px;
+	width:50px;
+	font-weight:bold;
+	font-size:16px;
+}
+
+#error{
+	display:block;
+	height:20px;
+	color:red;
+	text-align: left;
+	margin-left:255px;
+	font-style: italic;
+}
+#result{
+	overflow:scroll;
+	height:250px;
+	max-width:600px;
+	margin:20px auto;
+}
+
+#result #content{
+	list-style: none;
+	text-align:left;
+}
+#result #content .display{
+	padding:15px;
+	background:rgba(255,255,255,0.8);
+	border-radius:5px;
+	margin-top:5px;
+}
+
+.glyphicon-remove{
+	float:right;
+	padding-right:10px;
+	cursor: pointer;
+}
+#result span{
+	margin-left:15px;
+}
+.float-right .btn-primary{
+	background-color: #4d4d4d;
+	border:none;
+	border-radius: 5px;
+	margin-right:5px;
+}
+.finished{
+	text-decoration: line-through;
+}
+.unfinished{
+	text-decoration: none;
+}
 
