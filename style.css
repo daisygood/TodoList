@@ -1,9 +1,15 @@
+
+*{
+	font-family: 'Fredericka the Great', cursive;
+}
 body{
 	background:url('background.jpg')no-repeat center center;
 	background-size: cover;
 	margin:0;
 	padding:0;
-
+}
+h1{
+	letter-spacing: 5px;
 }
 .container{
 	max-width:900px;
@@ -22,7 +28,8 @@ body{
 	height:40px;
 	width:300px;
 	border:none;
-	border-bottom:5px solid #4d4d4d;
+	border-bottom:4px solid #fff;
+	color:#fff;
 	background:transparent;
 	font-size:16px;
 	padding-left:5px;
@@ -32,7 +39,9 @@ form .btn-default{
 	line-height: 40px;
 	width:50px;
 	font-weight:bold;
-	font-size:16px;
+	font-size:20px;
+	border:none;
+	color:#000;
 }
 
 #error{
@@ -47,7 +56,7 @@ form .btn-default{
 	overflow:scroll;
 	height:250px;
 	max-width:600px;
-	margin:20px auto;
+	margin:0 auto;
 }
 
 #result #content{
@@ -56,9 +65,9 @@ form .btn-default{
 }
 #result #content .display{
 	padding:15px;
-	background:rgba(255,255,255,0.8);
-	border-radius:5px;
+	border-bottom: 2px solid #fff;
 	margin-top:5px;
+	font-size:20px;
 }
 
 .glyphicon-remove{
@@ -74,6 +83,13 @@ form .btn-default{
 	border:none;
 	border-radius: 5px;
 	margin-right:5px;
+}
+.float-right .btn-primary:hover{
+	background-color: #8c8c8c;
+}
+.float-right .btn-primary:after{
+	background-color: #4d4d4d;
+	border:none;
 }
 .finished{
 	text-decoration: line-through;
